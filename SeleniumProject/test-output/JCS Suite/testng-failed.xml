@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JCS Suite]">
+  <test thread-count="5" name="JCS Provisioning Flow(failed)">
+    <parameter name="password" value="Welc0me1#"/>
+    <parameter name="domain" value="pool2wd0331"/>
+    <parameter name="username" value="mallikarjun.reddy.kukunoori@oracle.com"/>
+    <classes>
+      <class name="jcsproject.JCSFeature">
+        <methods>
+          <include name="jcsProvisioning"/>
+        </methods>
+      </class> <!-- jcsproject.JCSFeature -->
+    </classes>
+  </test> <!-- JCS Provisioning Flow(failed) -->
+</suite> <!-- Failed suite [JCS Suite] -->

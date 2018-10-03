@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Case Study6 Suite">
+  <test thread-count="5" name="Login Tests">
+      <parameter name="userid" value="sagarshrivastava1989@gmail.com"></parameter>
+      <parameter name="password" value="S@786tava"></parameter>
+    <classes>
+      <class name="casestudy6.CourseSearchTest"/>
+    </classes>
+  </test> <!-- Login Tests -->
+</suite> <!-- Case Study6 Suite -->

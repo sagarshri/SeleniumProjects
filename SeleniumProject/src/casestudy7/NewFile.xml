@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flipkart Suite">
+  <test name="Flipkart test">
+      <parameter name="BookName" value="Selenium Book"></parameter>
+      
+    <classes>
+      <class name="casestudy7.FlipkartTest"/>
+    </classes>
+  </test> 
+</suite> 

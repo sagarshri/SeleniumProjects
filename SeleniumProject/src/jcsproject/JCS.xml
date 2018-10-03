@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JCS Suite">
+  <test name="JCS Provisioning Flow">
+      <parameter name="domain" value="pool2wd0331"></parameter>
+      <parameter name="username" value="mallikarjun.reddy.kukunoori@oracle.com"></parameter>
+      <parameter name="password" value="Welc0me1#"></parameter>
+    <classes>
+      <class name="jcsproject.JCSFeature"/>
+    </classes>
+  </test> <!-- Login Tests -->
+</suite> <!-- Case Study6 Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Case Study6 Suite]">
+  <test thread-count="5" name="Login Tests(failed)">
+    <parameter name="password" value="S@786tava"/>
+    <parameter name="userid" value="sagarshrivastava1989@gmail.com"/>
+    <classes>
+      <class name="casestudy6.CourseSearchTest">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="SignUpWithExistingID"/>
+        </methods>
+      </class> <!-- casestudy6.CourseSearchTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [Case Study6 Suite] -->
